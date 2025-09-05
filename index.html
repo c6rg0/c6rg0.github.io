@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Portifolio</title>
 	<link rel="stylesheet" href="/web.css">
 </head>
+
 <body>
 
-	<div class="content">
+	<div class="container">
 
-		<h1>Gabriel's portifolio:<br>
-		@c6rg0</h1>
+		<div class="content">
 
-	<h2>Skills</h2>
-	<p>Git, Python, HTML, Linux<br> </p>
+			<h1>Gabriel's portifolio:<br>
+			@c6rg0</h1>
 
-	<h3>Skills I have a lot to learn in</h3>
-	<p>C, C++, CSS, js<br> <br>
-	Well, these are the languages I worked on once or twice before, even so,<br>
-	memorizing every single single feature is a waste of my time when documentation exists.<br>
-	I can code with these languages, but I lack the experience to say I'm close to being skilled at them<br>
-	(I'm not falling for the Dunning-Krugger effect lol) <br></p>
+			<h2>Skills</h2>
+			<p>Git, Python, HTML, Linux<br> </p>
+
+			<h3>Skills I have a lot to learn in</h3>
+			<p>C, C++, CSS, js<br> <br>
+			Well, these are the languages I worked on once or twice before. With some<br>
+			documentation and learning on the go, I can use them.</p>
+
+		</div>
+
+		<div id="particles-js"></div>
+
+		<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
+		<script>
+			particlesJS.load('particles-js', 'particles.json', function() {
+				console.log('callback - particles.js config loaded');
+			});
+
+		</script>
 
 	</div>
-
-	<div id="particles-js"></div>
-
-	<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
-
-	<script>
-		particlesJS.load('particles-js', 'particles.json', function() {
-			console.log('callback - particles.js config loaded');
-		});
-	</script>
 
 </body>
 </html> 
