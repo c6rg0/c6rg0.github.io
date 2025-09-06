@@ -1,6 +1,9 @@
 .container {
 	position: relative;
 	text-align: center;
+	background-size: auto;
+	background-position: center;
+
 }
 
 h1 {
@@ -39,5 +42,5 @@ p {
 	height: 100%;
 	background-color: #006969;
 	background-size: auto;
-	background-position: 50% 50%;
+	background-position: center;
 }
