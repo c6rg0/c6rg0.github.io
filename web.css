@@ -44,13 +44,13 @@ a:visited {
 }
 
 a:hover {
-	color: #696969;
+	color: #161B1F;
 	background-color: tranparent;
 	text-decoration: underline;
 }
 
 a:active {
-	color: #696969;
+	color: #1611B1F;
 	background-color: tranparent;
 	text-decoration: none;
 }
