@@ -1,39 +1,45 @@
+@font-face {
+	font-family: "JetBrains Mono";
+	src: local('JetBrainsMono-medium'), url("/JetBrainsMono-Medium.woff2") format('woff2');
+}
+
 .container {
 	position: relative;
 	text-align: center;
 	background-size: auto;
 	background-position: center;
+	font-family: JetBrains Mono;
 
 }
 
 h1 {
 	color: black;
 	text-align: center;
-	font-size: 30px;
+	font-size: 50px;
 }
 
 h2 {
 	color: black;
 	text-align: center;
-	font-size: 30px;
+	font-size: 50px;
 }
 
 h3 {
 	color: black;
 	text-align: center;
-	font-size: 30px;
+	font-size: 35px;
 }
 
 h4 {
 	color: black;
 	text-align: center;
-	font-size: 30px;
+	font-size: 35px;
 }
 
 p {
 	color: black;
 	text-align: left;
-	font-size: 20px;
+	font-size: 27px;
 }
 
 #particles-js {
