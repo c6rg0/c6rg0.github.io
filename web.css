@@ -31,6 +31,30 @@ h1 {
 
 }
 
+a:link {
+	color: black;
+	background-color: tranparent;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	background-color: tranparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #696969;
+	background-color: tranparent;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #696969;
+	background-color: tranparent;
+	text-decoration: none;
+}
+
 h2 {
 	text-align: center;
 	font-size: 35px;
