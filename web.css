@@ -54,4 +54,5 @@ p {
 	background-color: #006969;
 	background-size: absolute;
 	background-position: center;
+	background-clip: text;
 }
